@@ -1,0 +1,35 @@
+{
+  "name": "twitter_lottery",
+  "version": "1.0.0",
+  "devDependencies": {
+    "csv": "^5.3.2",
+    "dotenv": "^8.2.0",
+    "fs": "0.0.1-security",
+    "twitter-lite": "^0.14.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Katsumi Takahashi",
+  "license": "ISC",
+  "description": "イベント開催時に特定のハッシュタグでつぶやかれたツイート（リツイートは除く）から抽選を行うプログラムです。",
+  "dependencies": {
+    "cross-fetch": "^3.0.6",
+    "csv-parse": "^4.15.3",
+    "csv-generate": "^3.3.0",
+    "csv-stringify": "^5.6.2",
+    "mixme": "^0.4.0",
+    "stream-transform": "^2.0.4",
+    "node-fetch": "^2.6.1",
+    "oauth-1.0a": "^2.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobilebiz/tweets_lottery.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mobilebiz/tweets_lottery/issues"
+  },
+  "homepage": "https://github.com/mobilebiz/tweets_lottery#readme"
+}
