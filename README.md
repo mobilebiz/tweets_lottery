@@ -14,7 +14,7 @@ Twitter API の利用申請が必要です。[こちらの記事](https://www.it
 ## インストール
 
 ```sh
-git clone
+git clone https://github.com/mobilebiz/tweets_lottery
 cd tweets_lottery
 npm install
 ```
